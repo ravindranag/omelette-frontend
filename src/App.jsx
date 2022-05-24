@@ -1,9 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
 import {Box, Container, createTheme, styled, ThemeProvider} from '@mui/material'
-
-import { io } from "socket.io-client";
-import { useEffect } from 'react';
 import NavBar from './components/navbar/NavBar';
 import ChatArea from './components/chatarea/ChatArea';
 import SendMessage from './components/send/Send';

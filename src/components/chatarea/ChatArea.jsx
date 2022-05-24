@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import { useContext } from "react";
-import { ChatsContext, ChatsProvider } from "../../context/Chats";
+import { ChatsContext } from "../../context/Chats";
 import Message from "../message/Message";
 
 const ChatArea = () => {
